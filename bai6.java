@@ -8,7 +8,8 @@ public class bai6 {
         a= sc.nextInt();
         System.out.println("so hang tram la :"+ (a/100));
         System.out.println("so hang chuc la :"+ ((a%100)/10));
-        System.out.println("so hang dơn vi la :"+ (a%10));
-
+        System.out.println("so hang don vi la :"+ (a%10));
+        System.out.println("so dao nguoc là :"+ (a%10)+((a%100)/10)+(a/100));
+        System.out.println("tong cac chu so là :"+((a%10)+((a%100)/10)+(a/100)));
     }
 }
