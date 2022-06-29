@@ -59,11 +59,9 @@ public class lab2 {
         System.out.println("so dien thang truoc là" +sdc);
         System.out.println("so dien thang nay là" +sdm);
         System.out.println("tong so dien su dung thang nay la" +tsd);
-        int dm=tsd*230,vdm;
-            // System.out.println("so tien định mức phai tra la " +dm);
-            // vdm=sc.nextInt();
-         if(50 <= vdm){
-            System.out.println("so tien phai tra la "+((vdm*480)+dm));
+       
+         if(tsd<50){
+            System.out.println("so tien phai tra dinh muc la "+ (tsd*230));
         } else if(50>vdm&&100<vdm){
             System.out.println("so tien phai tra la "+((vdm*700)+dm));
         }
